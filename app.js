@@ -1,12 +1,10 @@
+require('dotenv').config();
 var express = require('express');
 var app = express();
-var routes = express.Router();
-var dotenv = require('dotenv').config();
 var path = require('path');
 
-
-app.set('views', path.join(__dirname, '/../client'));
-app.use(express.static(path.join(__dirname, '/../client')));
+app.set('views', path.join(__dirname, '/dist'));
+app.use(express.static(path.join(__dirname, '/dist')));
 
 app.get('/',(req,res)=>{
     res.render('index');
