@@ -21,10 +21,10 @@
     "vue": "vue/dist/vue.common.js"
   },
   "dependencies": {
-    "dotenv": "^6.0.0",
+    "dotenv": "^6.2.0",
     "ejs": "^2.6.1",
-    "express": "^4.16.3",
-    "vue": "^2.0.1"
+    "express": "^4.16.4",
+    "vue": "^2.6.10"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
@@ -34,7 +34,7 @@
     "babel-runtime": "^6.0.0",
     "babelify": "^7.2.0",
     "browserify": "^13.1.0",
-    "browserify-hmr": "^0.3.1",
+    "browserify-hmr": "^0.3.7",
     "cross-env": "^2.0.0",
     "envify": "^3.4.1",
     "eslint": "^3.3.0",
@@ -43,11 +43,11 @@
     "eslint-plugin-promise": "^2.0.1",
     "eslint-plugin-standard": "^2.0.0",
     "http-server": "^0.9.0",
-    "nodemon": "^1.17.5",
+    "nodemon": "^1.18.11",
     "npm-run-all": "^2.3.0",
     "proxyquireify": "^3.0.1",
     "uglify-js": "^2.5.0",
     "vueify": "^9.0.0",
-    "watchify": "^3.4.0"
+    "watchify": "^3.11.1"
   }
 }
